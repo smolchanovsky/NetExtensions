@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetExtensions", "NetExtensions\NetExtensions.csproj", "{D36D0549-0624-4B4E-AAD0-F4F35D3EFB87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetExtensions", "src\NetExtensions\NetExtensions.csproj", "{D36D0549-0624-4B4E-AAD0-F4F35D3EFB87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetExtensions.Tests", "NetExtensions.Tests\NetExtensions.Tests.csproj", "{4FC16C86-E01D-4F17-A924-7A38A9F7B6EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetExtensions.Tests", "tests\NetExtensions.Tests\NetExtensions.Tests.csproj", "{4FC16C86-E01D-4F17-A924-7A38A9F7B6EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{567A79AA-9593-49DA-8DE3-24C5B10427E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7281F27E-B2E9-493B-92CB-0AF335E399D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,5 +31,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A10813AD-23A8-452B-AA62-8CCB40B98831}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D36D0549-0624-4B4E-AAD0-F4F35D3EFB87} = {567A79AA-9593-49DA-8DE3-24C5B10427E6}
+		{4FC16C86-E01D-4F17-A924-7A38A9F7B6EB} = {7281F27E-B2E9-493B-92CB-0AF335E399D4}
 	EndGlobalSection
 EndGlobal
